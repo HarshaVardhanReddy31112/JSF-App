@@ -1,0 +1,19 @@
+<html xmlns:h="http://java.sun.com/jsf/html">
+<body>
+
+<h1>Calculator</h1>
+<h:form>
+Enter A: <h:inputText value="#{clac.a}" type="text" />
+<br/>
+Enter B: <h:inputText value="#{clac.b}" type="text" />
+<br/>
+Result = #{clac.c}
+<br/>
+<br/>
+
+<h:commandButton action="#{clac.add()}" value="ADD" />
+</h:form>
+
+</body>
+
+</html>
